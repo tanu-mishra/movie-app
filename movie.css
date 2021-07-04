@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#c9d1cd;
+    margin: 0;
+    padding: 0%;
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color:rgb(170, 9, 9);
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+.search{
+    background-color: white;
+    border:none;
+    outline: none;
+    border-radius: 1rem;
+    color:#fff;
+    outline: none;
+    padding: 0.5rem;
+    font-size: 1.1em;
+}
+main{
+    position: absolute;
+    top:4rem;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.movei{
+    background-color:rgb(20, 20, 20) ;
+    border-radius: 0.5rem;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5rem auto;
+    padding: 1rem ;
+    box-shadow: 0 0 0.5rem rgb(10, 10, 10);
+    width: 18em;
+    flex-direction: column;
+}
+.movei img{
+    width: 100%;
+}
+.movei_info{
+    font-size: 1.5rem;
+    color:white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0.5em 1em;
+}
+ .overview{
+    padding: 1rem;
+    overflow: auto;
+    background-color: transparent;
+    margin-top: 1rem;
+    box-shadow: 0 0 0.5rem grey;
+    border:2px solid white;
+    border-radius: 1rem;
+    display: hidden;
+}
+.green{
+    padding: 1rem;
+    color: yellowgreen;
+}
+.red{
+    padding: 1rem;
+    color: red;
+}
+@media screen and (max-width:600px){
+    .movei{
+        border-radius: 0.5rem;
+        margin: 2rem auto;
+        padding: 2rem ;
+        width: 25em;
+    }
+    
+}
